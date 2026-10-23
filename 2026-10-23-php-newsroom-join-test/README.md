@@ -120,8 +120,6 @@ Two small things:
 
 - **Check whether my key was approved:** the site doesn't show approval status anywhere I could find.
 - **See the feedback I sent:** the site never shows it, by design.
-- **Test another browser or my phone:** each needs its own key and a new invitation. I only checked a private window (step 7).
-- **Ask 001** (reading as a project manager): not part of this test; to follow.
 
 ## Top changes, in order
 
