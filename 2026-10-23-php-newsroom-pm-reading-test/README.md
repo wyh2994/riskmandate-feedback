@@ -172,17 +172,7 @@ Also seen in the reference test: the price pill (here "£4.67"; it was "£4.68" 
 
 **Fix:** Put "Nothing leaves this browser" at the top of the pop-up, and add "Want the team to see this? Send it as feedback", linked to the Feedback button.
 
-### 12. How the site is organised
-
-**What I see:** The breadcrumb at the top: "newsroom / 2026 / October / PHP".
-
-**What I think:** Only after going back up a level did I realise this is October 2026's story, that everything is on this site, and that I can read it straight through or through a reader's eyes. Taylor's briefing says "FROM THE SAME 70 CLAIMS…" but never explains it plainly.
-
-**Fix:** One line at the top of Power users: start here, e.g. "This site follows one story for one month, October 2026's PHP security flaws. Read it straight through, or pick a reader and see it through their eyes." And on Taylor's briefing: "Every reader sees the same 70 facts; this briefing picks the 20 a project manager needs, in the order you need them."
-
-Also seen in the reference test: the one-line description of the site is only in the footer.
-
-### 13. The fact-check desk
+### 12. The fact-check desk
 
 ![Every claim, graded](screenshots/30-every-claim-graded.png)
 
@@ -212,13 +202,23 @@ Also seen in the reference test: the one-line description of the site is only in
 
 **Fix:** A direct link to the original next to each source ("Read the original on cisa.gov ↗"). Hide tickets from general readers, or rename them "Fact-checkers' notes" with one line of explanation. Put a hover definition on each grade label, linking to the full scale.
 
-### 14. The team page
+### 13. The team page
 
 **What I see:** "2 people and 17 agents and roles", each with a page. Lower down: "One file per agent per concern. So a merge never asks a human to choose between two agents' edits." and "Write only in your own folder… To ask another member for work, send it mail; the owner opens the task." The Conductor "Maps the work, hands it out, and keeps every member, human and agent, synchronised."
 
 **What I think:** It's clear who is a person and who is an agent, and what each does. There are a lot of agents and a lot of information. Would I want an agent team like this? Yes. My questions: when one agent depends on another's work, do they clash? Are there delays? Does a person need to step in and push? The page does answer most of this, but lower down, in the agents' working rules and in their language (vault, lane, check-in cycle), so I missed it the first time.
 
 **Fix:** A short plain paragraph near the top, e.g. "How do the agents avoid clashing? Each owns its own files, asks others for work by message, and a conductor plans every run and tracks who is waiting on whom. Dinis decides; Vicky tracks what's late."
+
+### 14. How the site is organised
+
+**What I see:** The breadcrumb at the top: "newsroom / 2026 / October / PHP".
+
+**What I think:** Only after going back up a level did I realise this is October 2026's story, that everything is on this site, and that I can read it straight through or through a reader's eyes. Taylor's briefing says "FROM THE SAME 70 CLAIMS…" but never explains it plainly.
+
+**Fix:** One line at the top of Power users: start here, e.g. "This site follows one story for one month, October 2026's PHP security flaws. Read it straight through, or pick a reader and see it through their eyes." And on Taylor's briefing: "Every reader sees the same 70 facts; this briefing picks the 20 a project manager needs, in the order you need them."
+
+Also seen in the reference test: the one-line description of the site is only in the footer.
 
 ## Ask 001: my answers
 
