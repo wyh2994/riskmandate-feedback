@@ -1,8 +1,11 @@
 # Power-user test: joining PHP October 2026 and sending feedback
 
 **Tester:** Vicky, a real power user from Dinis's WhatsApp group
+
 **Date:** 23 October 2026 · Chrome on a Mac · site v0.8.2, then v0.8.3 (the site was updated while I tested)
+
 **Tested:** the invitation link from the WhatsApp group, "Make my key and join", the join page after joining, the Feedback pane, sending signed feedback, the join page after a refresh, and the same page in a private window.
+
 **Persona:** myself. A project manager, not a developer: I use AI assistants every day, but keys, fingerprints and vaults are new to me.
 
 ## The short version
