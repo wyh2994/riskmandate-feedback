@@ -17,6 +17,7 @@ Joining works. One click made a key, the success screen was clear, and I sent si
 *(No screenshot: once a key exists, the page no longer shows this view.)*
 
 **What I see:** "You have been invited to give feedback on this site as **editor**", and the button "Make my key and join".
+
 **What I think:** also seen in the example test: the link says *editor*. After I joined, nothing on the site showed which role I joined as, so I can't tell whether it was corrected.
 
 ### 1b. The top of the page: where does it start?
@@ -24,9 +25,11 @@ Joining works. One click made a key, the success screen was clear, and I sent si
 ![Everything above the join page's title](screenshots/01-top-of-page.png)
 
 **What I see:** above the title "Join: a key for this device, in one tap" there are six layers: the site name with a version badge and "Developing · last checked…"; the Ask, Feedback, Newsprint and £4.72 buttons; a two-line menu with four group labels; a "New to this story?" banner; a "Since your last visit, 23 Oct 10:09: across the site 0 new and 0 changed of 342" box with "Mark everything read" and "Read items: fade / hide / show"; and an "About this site" strip.
+
 **What I think:** I couldn't tell where this page actually begins. Everything above the title has the same weight, so my eye had nowhere to land.
 
 **WTF: what do these buttons do?** I pressed "Mark everything read": nothing visible happened. I pressed fade, hide and show: nothing visible happened either. I don't know what they act on, or what "read" means on this site. (On this page the box said "0 new and 0 changed", so perhaps there was nothing to fade or hide, but nothing on the page says so.)
+
 **Fix:** on the join page, hide the reading box, or at least start the page lower; and give "Mark everything read" and fade/hide/show a visible result or a one-line explanation ("fade: items you've read turn grey").
 
 *Also seen in the example test: the £ pill (£4.72 here, £5.00 in a private window) and "Newsprint" are unexplained.*
@@ -36,9 +39,11 @@ Joining works. One click made a key, the success screen was clear, and I sent si
 ![Success message after joining](screenshots/02-join-done.png)
 
 **What I see:** "Done. Your key is made and your enrolment is sent", the device's two fingerprints, and three next steps: "The editor checks it and adds your key to the contributors: usually within a day. You can send feedback straight away; it is kept until then."
+
 **What I think:** clear and calm. It answers the question I had, "what happens now?", and tells me I don't have to wait to send feedback.
 
 **WTF: can I save this key?** The box ends with "The key lives in this browser only and cannot be copied out of it." My first instinct was to save it somewhere, the way I would save a password, and I felt uneasy that I couldn't. I only understood it was fine after asking: the browser remembers the key, and there is nothing to save.
+
 **Fix:** one reassuring line: "Nothing to save: this browser remembers your key. If you lose it (new device, cleared data), ask Dinis for a new invitation."
 
 ### 3. How it works, Enrolled keys, What it does not do
@@ -46,6 +51,7 @@ Joining works. One click made a key, the success screen was clear, and I sent si
 ![How it works, Enrolled keys and What it does not do](screenshots/03-how-it-works.png)
 
 **What I see:** four steps (invitation, one tap, enrolled, feedback from any page), the three roles defined, and the limits: one browser on one device, at most three devices per invitation, two weeks.
+
 **What I think:** this is good. As a new power user it told me what the key is for, what happens after I join, and what it can't do. Keep it.
 
 Two small things:
@@ -60,7 +66,9 @@ Two small things:
 ![The "What kind" list](screenshots/04-feedback-kind.png)
 
 **What I see:** one choice from "Something is wrong", "Unclear", "Missing", "An idea", "This is good".
+
 **What I think:** my notes usually mix praise and suggestions, so I had to split one note into two submissions ("This is good" and "An idea").
+
 **Fix:** allow more than one kind, or a "Mixed" option.
 
 ### 5. Sending
@@ -88,7 +96,9 @@ Two small things:
 ![The join page after a refresh](screenshots/06-after-refresh.png)
 
 **What I see:** "This device's key" with my fingerprints, then: "This device already has a key. To get one, ask Dinis by email or on WhatsApp, or use the join form."
+
 **What I think:** good news, the key survived the refresh. But the second sentence contradicts the first: I already have a key, so why ask Dinis for one? For a moment I thought something had gone wrong. And the one thing I wanted to know, whether my key has been approved, isn't shown.
+
 **Fix:** when a key exists, show its status instead: "Waiting for the editor's approval" or "Approved: your feedback shows as yours", with a link to send feedback.
 
 ### 7. The same page in a private window
@@ -96,7 +106,9 @@ Two small things:
 ![The join page in a Chrome Incognito window](screenshots/07-private-window.png)
 
 **What I see:** in a Chrome Incognito window on the same Mac, the join page says "This page needs an invitation: a link or QR code from the editor. To get one, ask Dinis by email or on WhatsApp, or use the join form." The reading box is back to "342 new and 0 changed", and the £ pill to £5.00.
+
 **What I think:** this confirms it: a private window doesn't have my key, and the site treats me as a stranger. That's correct, but nothing warned me. Someone who opens the site in a private window, or on a work browser, will think their key is gone.
+
 **Fix:** add this case to the "Nothing to save" line in step 2: "Other browsers, private windows and other devices won't have your key."
 
 ## Contradictions between pages
