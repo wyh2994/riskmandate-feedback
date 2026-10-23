@@ -7,6 +7,7 @@ One folder per task, newest first.
 
 | Date | Task | What I did | Link |
 |------|------|------------|------|
+| 23 Oct 2026 | PHP October 2026, as a power user (in progress) | Testing the sgit newsroom's PHP story site as a power user: ask 001, the join flow end to end, the phone view | [Open](2026-10-23-php-newsroom-power-user/) |
 | 21 Oct 2026 | Six behaviour policies, tried | Worked through the six Agent Behaviour Policy examples on customers.riskmandate.ai in real Claude; what held, what did not, and notes on the site itself | [Open](2026-10-21-customers-examples/) |
 
 ## How each task is kept
