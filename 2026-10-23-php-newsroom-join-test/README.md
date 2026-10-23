@@ -111,14 +111,13 @@ Two small things:
 
 **Fix:** add this case to the "Nothing to save" line in step 2: "Other browsers, private windows and other devices won't have your key."
 
-## Contradictions between pages
+## Where the site says two different things
 
-| Where | Says | Elsewhere | Says |
-|-------|------|-----------|------|
-| Join success message | open the Ask pane and choose Feedback | Join page, How it works, step 4 | press the Feedback button next to Ask |
-| Join page after refresh | "This device already has a key" | Same box, next sentence | "To get one, ask Dinis…" |
-| Join success message | "your enrolment is sent" | Enrolled keys, same page | "None yet", with no "pending" state |
-| Reading box, join page | "Mark everything read", fade/hide/show | What happens when pressed | nothing visible |
+| Here it says | But there it says | Why it confuses |
+|--------------|-------------------|-----------------|
+| **Success message:** open the Ask pane and choose Feedback | **How it works, step 4:** press the Feedback button next to Ask | Two different ways in; which one is meant? |
+| **After a refresh:** "This device already has a key" | **Next sentence, same box:** "To get one, ask Dinis…" | I already have one, so it looks as if something failed |
+| **Success message:** "your enrolment is sent" | **Enrolled keys, same page:** "None yet" | Nothing says my key is waiting for approval, so it looks as if joining failed |
 
 ## What worked (keep this)
 
