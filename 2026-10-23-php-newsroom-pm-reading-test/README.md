@@ -26,27 +26,23 @@ The biggest problem is repetition: the same point is often made two or three tim
 
 ![The front page](screenshots/02-front-page.png)
 
-![The header above the title](screenshots/03-front-page-header.png)
-
-![The front page with the lower part faded](screenshots/04-front-page-right-now-faded.png)
-
 **What I see:** Above the title: "FOR YOU", "Start here", "Questions", "Briefings", "Yours", "RESEARCH", "The incident"… then "Since your last visit, 23 Oct 10:09: on this page 0 new, 0 changed, 9 read", "Read items: fade hide show". Next to the title: "DEVELOPING" in red, with a flashing dot.
 
 **What I think:** There is too much above the title; I can't tell what I need to know and what I can ignore. The menu labels confused me a lot.
 
 **WTF:** What does the red, flashing "DEVELOPING" mean? Is the page unfinished? Can I trust what it says? Hovering over it explains nothing.
 
-**WTF:** When the page opened, the top was solid and everything below looked greyed out. Is it not working yet, or being edited? It turns solid when I hover. (It seems "Read items: fade" fades things marked as read, but nothing tells you that.)
-
 **Fix:** Put a one-line explanation on "DEVELOPING" (hover or tap), and say "faded = already read" next to the fade control.
+
+![The front page with the lower part faded](screenshots/04-front-page-right-now-faded.png)
+
+**WTF:** When the page opened, the top was solid and everything below looked greyed out. Is it not working yet, or being edited? It turns solid when I hover. (It seems "Read items: fade" fades things marked as read, but nothing tells you that.)
 
 Also seen in the reference test: the price pill (here "£4.67"; it was "£4.68" on the previous page). I thought it meant I had to pay.
 
 ### 3. Front page: "Right now"
 
 ![The buttons under the summary](screenshots/05-front-page-buttons.png)
-
-![Right now](screenshots/06-right-now.png)
 
 **What I see:** Five buttons under the summary ("What is happening now", "The briefing for you", "Explain it from the start", "Check your stack", "On your phone: Now"). Then "Right now", "As of 22 October 2026, 11:34 UTC, the time of the latest page this site saved.", and four short points, each with source tags (php.net, CISA, NCSC UK…).
 
@@ -64,35 +60,25 @@ Also seen in the reference test: the price pill (here "£4.67"; it was "£4.68" 
 
 ![Taylor's card](screenshots/08-taylor-card.png)
 
-![The answer in thirty seconds](screenshots/09-answer-thirty-seconds.png)
-
-![Words they will meet](screenshots/10-words-they-will-meet.png)
-
-![The glossary entry for PHP](screenshots/11-glossary-php.png)
-
 **What I see:** "Their question. *What unplanned work does this create, who do I chase, and what do I tell stakeholders?*", "Needs" and "Can skip", "THE ANSWER IN THIRTY SECONDS", "Reading path" with minutes per page ("About 16 minutes in all."), and "Words they will meet".
 
-**What I think:** The reading path is helpful, and so are the minutes. The keywords are great: each opens a short definition (PHP: "A programming language that runs on web servers and builds the pages you see."), so I could learn the terms before reading.
-
 **WTF:** Is "Their question" the question Taylor has in mind while reading? The card doesn't say.
+
+![The answer in thirty seconds](screenshots/09-answer-thirty-seconds.png)
 
 **WTF:** What is "The answer in thirty seconds", why is it here, and why do I need it? I only understood at the very end of the path that it is the answer to Taylor's question.
 
 **Fix:** Label it as the answer to the question above, e.g. "The short answer to Taylor's question".
 
+![Words they will meet](screenshots/10-words-they-will-meet.png)
+
+![The glossary entry for PHP](screenshots/11-glossary-php.png)
+
+**What I think:** The reading path is helpful, and so are the minutes. The keywords are great: each opens a short definition (PHP: "A programming language that runs on web servers and builds the pages you see."), so I could learn the terms before reading.
+
 ### 6. Reading path, step 1: Taylor's briefing
 
 ![The top of the briefing, with the progress bar](screenshots/12-taylor-briefing-top.png)
-
-![The small print about 70 claims](screenshots/13-seventy-claims.png)
-
-![Read the site as Taylor](screenshots/14-read-the-site-as-taylor.png)
-
-![What to decide or do](screenshots/15-what-to-decide-or-do.png)
-
-![Reading path and words, again](screenshots/16-reading-path-and-words.png)
-
-![The facts this rests on, and what is still open](screenshots/17-facts-and-still-open.png)
 
 **What I see:** A bar: "Reading as Taylor, project or programme manager" with steps 1 to 5. Above the title: "FROM THE SAME 70 CLAIMS, SELECTED AND ORDERED FOR ONE READER". A second button, "Read the site as Taylor →". Lower down: "What to decide or do", then the reading path, "What this briefing covers", "What you can skip" and "Words you will meet" again. At the bottom: "The facts this rests on" ("Show the 20 claims behind this briefing, each with its status and sources") and "What is still open".
 
@@ -100,7 +86,11 @@ Also seen in the reference test: the price pill (here "£4.67"; it was "£4.68" 
 
 **WTF:** What are the "70 claims", and why do I need to know?
 
+![Read the site as Taylor](screenshots/14-read-the-site-as-taylor.png)
+
 **WTF:** "Read the site as Taylor" took me straight to step 2. Does that mean I can skip the rest of step 1? A reader reads a page from top to bottom; jumping away suggests the rest doesn't matter.
+
+![The facts this rests on, and what is still open](screenshots/17-facts-and-still-open.png)
 
 **WTF:** Why are "The facts this rests on" and "What is still open" here? I didn't understand what they were for.
 
@@ -108,11 +98,11 @@ Also seen in the reference test: the price pill (here "£4.67"; it was "£4.68" 
 
 ![A definition on hover](screenshots/18-hover-definition.png)
 
-![How to read this site](screenshots/19-how-to-read-this-site.png)
-
 **What I see:** Hovering over "PHP" shows "A programming language that runs on web servers and builds the pages you see." and "Open the glossary →". Seven questions, starting with "1. What is PHP, and is it on my computer?". At the very end: "How to read this site: Every statement on this site carries one of five words, so you can tell a fact from a rumour at a glance:" CONFIRMED, REPORTED, DISPUTED, CONTRADICTED, UNVERIFIED.
 
 **What I think:** The hover definitions are a big help for a non-technical project manager. The seven questions are the ones a PM would ask, and the answers fit what I wanted to know. Every sentence has a source I can open.
+
+![How to read this site](screenshots/19-how-to-read-this-site.png)
 
 **WTF:** Why is "How to read this site" at the end, after I've already read it all? Once I read it I understood: it explains how far to trust each sentence and where it comes from. That's exactly what I needed before reading.
 
@@ -136,13 +126,13 @@ Also seen in the reference test: the price pill (here "£4.67"; it was "£4.68" 
 
 ![The your stack link](screenshots/22-your-stack-link.png)
 
-![Pulling the plug, as a capability](screenshots/23-pulling-the-plug.png)
-
 **What I see:** "To do step 0 and see what steps 1 to 4 mean for your own systems, describe them in your stack…". Steps from "0. Know what you run" onwards. The last section, "Pulling the plug, as a capability", including "the decision belongs to a named person and the execution belongs to a rehearsed runbook", and links to "the two flaws", "affected systems" and "the agencies".
 
 **What I think:** The steps are simple and easy to follow. The links at the end are good: I can jump straight to what the text refers to.
 
 **WTF:** From the words alone I thought "your stack" would move this content into my own systems. When I opened it, it looked complicated, like something I'd need to be taught. I left it.
+
+![Pulling the plug, as a capability](screenshots/23-pulling-the-plug.png)
 
 **WTF:** The title "Pulling the plug, as a capability" doesn't say what the section is or why it's there. After reading, it's actually the most useful conclusion for a PM: name who decides, and have a rehearsed plan.
 
@@ -152,17 +142,17 @@ Also seen in the reference test: the price pill (here "£4.67"; it was "£4.68" 
 
 ![Impact: the two ledgers](screenshots/24-impact-two-ledgers.png)
 
+**What I see:** A blue box, "IN PLAIN ENGLISH: Two lists: who took websites offline…", then a paragraph starting "Two ledgers, because they measure different things.", then small print starting "Two ledgers. The first is systems taken offline…". Then the "Taken offline" and "Compromised" tables, each with "STATUS" and "SOURCES". Then "What the two ledgers say together", with points such as "Attempts are not compromises." and "Absence of evidence is weak here."
+
+**WTF:** Are the big "Two ledgers" text and the small "Two ledgers" text repeating each other or adding something? Mostly repeating. With the blue box, the same point is made three times. The small print adds only one new thing: that a column says whether the entry comes from the organisation itself or from the press.
+
 ![Taken offline](screenshots/25-taken-offline-table.png)
 
 ![Compromised](screenshots/26-compromised-table.png)
 
-![What the two ledgers say together](screenshots/27-two-ledgers-together.png)
-
-**What I see:** A blue box, "IN PLAIN ENGLISH: Two lists: who took websites offline…", then a paragraph starting "Two ledgers, because they measure different things.", then small print starting "Two ledgers. The first is systems taken offline…". Then the "Taken offline" and "Compromised" tables, each with "STATUS" and "SOURCES". Then "What the two ledgers say together", with points such as "Attempts are not compromises." and "Absence of evidence is weak here."
-
 **What I think:** The two tables are clear, and the status and sources columns show how reliable each line is.
 
-**WTF:** Are the big "Two ledgers" text and the small "Two ledgers" text repeating each other or adding something? Mostly repeating. With the blue box, the same point is made three times. The small print adds only one new thing: that a column says whether the entry comes from the organisation itself or from the press.
+![What the two ledgers say together](screenshots/27-two-ledgers-together.png)
 
 **WTF:** What is "What the two ledgers say together" saying? I needed it explained. It uses words like mod_php, x86_64, WAF, worker and shell.
 
@@ -172,11 +162,11 @@ Also seen in the reference test: the price pill (here "£4.67"; it was "£4.68" 
 
 ![The timeline](screenshots/28-timeline.png)
 
-![The note pop-up](screenshots/29-note-popup.png)
-
 **What I see:** "Everything that happened, in order, from a 2024 audit to this morning, each line tied to the page that says so." Each row has a ✓ and a "⋯" button. "⋯" opens: "Done", "Read later", "Follow up", "Not for me", "More like this", "Liked", "Wrong", "Fix this", "Idea", a box ("A note, a correction, an idea. Kept in this browser."), "Keep the note", and at the bottom "Nothing leaves this browser. Your desk lists every note and decision, and exports them."
 
 **What I think:** A good overview of how the story developed. The rows were greyed out again until I hovered over them (the page says "68 read", and the timeline has 68 events).
+
+![The note pop-up](screenshots/29-note-popup.png)
 
 **WTF:** Is the "⋯" pop-up for my own notes, or does it go to the agents or the editor? The answer is in the small print at the bottom, but "Wrong", "Fix this" and "Idea" sound like reports to the team.
 
@@ -198,15 +188,7 @@ Also seen in the reference test: the one-line description of the site is only in
 
 ![One claim's page](screenshots/31-claim-detail.png)
 
-![This fact over time, and what it rests on](screenshots/32-fact-over-time-and-rests-on.png)
-
 ![Where this fact appears, and its versions](screenshots/33-where-it-appears-versions.png)
-
-![Open tickets](screenshots/34-open-tickets.png)
-
-![The tickets column](screenshots/35-tickets-column.png)
-
-![Contradiction-2](screenshots/36-contradiction-2.png)
 
 ![The spectrum of evidence](screenshots/37-spectrum-of-evidence.png)
 
@@ -216,11 +198,17 @@ Also seen in the reference test: the one-line description of the site is only in
 
 **WTF:** Does it link to the original web page? It does, but only one level down, on the site's own source page. At first I thought there was no link.
 
+![This fact over time, and what it rests on](screenshots/32-fact-over-time-and-rests-on.png)
+
 **WTF:** What is "What it rests on" for? It shows the same three sources as the list at the top, as a diagram.
 
-**WTF:** What are "Open tickets" and the "TICKETS" column? I clicked one and still didn't understand. Every ticket opens more links, which opens more links. It felt like information overload.
+![Open tickets](screenshots/34-open-tickets.png)
 
-**WTF:** What are the grades based on? I had to go looking for the scale on another page.
+![The tickets column](screenshots/35-tickets-column.png)
+
+![Contradiction-2](screenshots/36-contradiction-2.png)
+
+**WTF:** What are "Open tickets" and the "TICKETS" column? I clicked one and still didn't understand. Every ticket opens more links, which opens more links. It felt like information overload.
 
 **Fix:** A direct link to the original next to each source ("Read the original on cisa.gov ↗"). Hide tickets from general readers, or rename them "Fact-checkers' notes" with one line of explanation. Put a hover definition on each grade label, linking to the full scale.
 
