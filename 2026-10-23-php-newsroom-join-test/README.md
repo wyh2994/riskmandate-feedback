@@ -4,7 +4,6 @@
 **Date:** 23 October 2026 · Chrome on a Mac · site v0.8.2, then v0.8.3 (the site was updated while I tested)
 **Tested:** the invitation link from the WhatsApp group, "Make my key and join", the join page after joining, the Feedback pane, sending signed feedback, the join page after a refresh, and the same page in a private window.
 **Persona:** myself. A project manager, not a developer: I use AI assistants every day, but keys, fingerprints and vaults are new to me.
-**Builds on:** Dinis's example test (Claude playing "Sam", v0.8.1), which stopped at "Make my key and join" because that step needs a human. I am that human, so this report starts where it stopped, and does not repeat its findings.
 
 ## The short version
 
@@ -18,7 +17,7 @@ Joining works. One click made a key, the success screen was clear, and I sent si
 
 **What I see:** "You have been invited to give feedback on this site as **editor**", and the button "Make my key and join".
 
-**What I think:** also seen in the example test: the link says *editor*. After I joined, nothing on the site showed which role I joined as, so I can't tell whether it was corrected.
+**What I think:** the link says *editor*, but I was invited as a power user. After I joined, nothing on the site showed which role I joined as, so I can't tell which one I have.
 
 ### 1b. The top of the page: where does it start?
 
@@ -32,7 +31,7 @@ Joining works. One click made a key, the success screen was clear, and I sent si
 
 **Fix:** on the join page, hide the reading box, or at least start the page lower; and give "Mark everything read" and fade/hide/show a visible result or a one-line explanation ("fade: items you've read turn grey").
 
-*Also seen in the example test: the £ pill (£4.72 here, £5.00 in a private window) and "Newsprint" are unexplained.*
+*Also unexplained: the £ pill (£4.72 here, £5.00 in a private window) and "Newsprint".*
 
 ### 2. "Done. Your key is made and your enrolment is sent."
 
