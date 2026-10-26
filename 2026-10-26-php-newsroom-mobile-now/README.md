@@ -34,10 +34,6 @@ The Now view on a phone is much simpler than the desktop page and easier to foll
 
 **Fix:** Show only the selected mode: "From the data" shows only the data content, "Written for me" shows only the written briefing.
 
-**Also noticed:**
-- The box says "Your 5-minute briefing", but the text it wrote is headed "PHP October 2026 briefing: 10 minutes".
-- The citations show as internal IDs (`front-now`, `fact-two-cves-9.2`, `fact-only-update`). Numbered footnotes or source names would be easier to read.
-
 ### 3. "I am up to date" and "Read as"
 
 <img src="screenshots/03-up-to-date-and-read-as.png" alt="The I am up to date button and the Read as picker" width="300">
@@ -90,7 +86,6 @@ The Now view on a phone is much simpler than the desktop page and easier to foll
 2. Show only the selected mode ("From the data" or "Written for me").
 3. Show a sample of what "Draw it" produces before asking readers to pay for it.
 4. Add one or two visuals to the Now view, e.g. the status cards or a short timeline.
-5. Fix the 5-minute / 10-minute mismatch, and show citations as footnotes or source names.
 
 ## Open question
 
