@@ -16,7 +16,7 @@ The Now view on a phone is much simpler than the desktop page and easier to foll
 
 ### 1. First view: reading time and two modes
 
-![The Now view when I first opened it](screenshots/01-now-first-view.png)
+<img src="screenshots/01-now-first-view.png" alt="The Now view when I first opened it" width="300">
 
 **What I see:** Four reading times (1 min headlines, 5 min the gist, 10 min with links, 30 min the lot), then two modes: "From the data, deterministic" and "Written for me, agentic, your key". Below that, "First time here" with the headline and plain bullet points.
 
@@ -26,7 +26,7 @@ The Now view on a phone is much simpler than the desktop page and easier to foll
 
 ### 2. "Written for me"
 
-![The written briefing, below the data content](screenshots/02-written-for-me.png)
+<img src="screenshots/02-written-for-me.png" alt="The written briefing, below the data content" width="300">
 
 **What I see:** When I select "Written for me", the page does not switch. I have to scroll past all the "From the data" content to reach "Your 5-minute briefing, written for you", with "Write it" and "Draw it" buttons.
 
@@ -40,7 +40,7 @@ The Now view on a phone is much simpler than the desktop page and easier to foll
 
 ### 3. "I am up to date" and "Read as"
 
-![The I am up to date button and the Read as picker](screenshots/03-up-to-date-and-read-as.png)
+<img src="screenshots/03-up-to-date-and-read-as.png" alt="The I am up to date button and the Read as picker" width="300">
 
 **What I see:** At the end of the content: "From here on, this app counts what changes. Tell it you are up to date and next time it shows only what is new", a button "I am up to date: count from now", and "Read as: Who are you? (optional)".
 
@@ -48,7 +48,7 @@ The Now view on a phone is much simpler than the desktop page and easier to foll
 
 ### 4. Coming back: "Good: nothing new"
 
-![Since you last looked: nothing new](screenshots/04-nothing-new.png)
+<img src="screenshots/04-nothing-new.png" alt="Since you last looked: nothing new" width="300">
 
 **What I see:** After tapping "I am up to date" and coming back, the page opens with "Since you last looked: Good: nothing new" and the time the site was last updated from its evidence.
 
@@ -56,7 +56,7 @@ The Now view on a phone is much simpler than the desktop page and easier to foll
 
 ### 5. "Draw it"
 
-![The error when I tapped Draw it](screenshots/05-draw-it-error.jpg)
+<img src="screenshots/05-draw-it-error.jpg" alt="The error when I tapped Draw it" width="420">
 
 **What I see:** "OpenRouter 402: This request requires at least $1.00 in balance for image or video output".
 
@@ -68,7 +68,7 @@ The Now view on a phone is much simpler than the desktop page and easier to foll
 
 ### 6. Ask
 
-![The Ask tab and its error](screenshots/06-ask-error.png)
+<img src="screenshots/06-ask-error.png" alt="The Ask tab and its error" width="300">
 
 **What I see:** "Ask about the PHP flaws", with suggested questions (Has anyone actually been hacked? / Do I need to do anything about my WordPress site? / What should I tell my board?). When I tapped "What should I tell my board?", the answer was "OpenRouter 402: This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits."
 
