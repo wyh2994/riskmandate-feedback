@@ -10,7 +10,7 @@
 
 ## The short version
 
-The Now view on a phone is much simpler than the desktop page and easier to follow. Choosing how long to read, telling the site "I am up to date", and choosing who I am all worked well, and Ask lets each reader get an answer at their own level. Two things held me back: the page is text only, so it feels dry, and the parts written by an AI need the reader's own OpenRouter key with credit, which is a barrier, and when the credit runs out the page shows the provider's raw error.
+The Now view on a phone is much simpler than the desktop page and easier to follow. Choosing how long to read, telling the site "I am up to date", and choosing who I am all worked well, and Ask lets each reader get an answer at their own level. Two things held me back: the page is text only, so it feels dry, and the parts written by an AI use credit on the reader's own OpenRouter key, which nothing says before you tap, and when the credit runs out the page shows the provider's raw error.
 
 ## Step by step
 
@@ -56,10 +56,11 @@ The Now view on a phone is much simpler than the desktop page and easier to foll
 
 **What I see:** "OpenRouter 402: This request requires at least $1.00 in balance for image or video output".
 
-**What I think:** Drawing needs paid credit on my own key, which is fair. But a newcomer will not understand this message, and I had no idea what the picture would look like before deciding whether to add credit.
+**What I think:** Vault & keys already helps a reader get a key, so anyone who reaches this button probably has one. What they may not know is that some features need credit on that key, and drawing needs at least $1.00. Nothing told me this before I tapped, and the error is the provider's raw text. I also had no idea what the picture would look like before deciding whether to add credit.
 
 **Fix:**
-- Replace the raw error with a plain message, e.g. "Drawing needs an OpenRouter key with at least $1.00 of credit. How to set it up →".
+- Say before the tap which features use credit, e.g. a small "uses your OpenRouter credit (at least $1.00)" note under "Draw it".
+- Replace the raw error with a plain message, e.g. "Your key needs more credit for this. Drawing needs at least $1.00. Add credit on OpenRouter →".
 - Show a sample picture next to "Draw it", so readers can see what they would get. That would likely make them more willing to pay for it.
 
 ### 6. Ask
@@ -68,9 +69,9 @@ The Now view on a phone is much simpler than the desktop page and easier to foll
 
 **What I see:** "Ask about the PHP flaws", with suggested questions (Has anyone actually been hacked? / Do I need to do anything about my WordPress site? / What should I tell my board?). When I tapped "What should I tell my board?", the answer was "OpenRouter 402: This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits."
 
-**What I think:** Ask is one of the most useful parts. Even when the content is written for a role, readers know different amounts about the topic, and Ask lets each person get an answer at their own level. The suggested questions are a good start. But it also needs credit on the reader's key, and the error is the provider's raw text.
+**What I think:** Ask is one of the most useful parts. Even when the content is written for a role, readers know different amounts about the topic, and Ask lets each person get an answer at their own level. The suggested questions are a good start. But it also uses credit on the reader's key, which nothing mentions before you ask, and the error is the provider's raw text.
 
-**Fix:** Same as Draw it: a plain message that says what is needed and how to set it up.
+**Fix:** Same as Draw it: say up front that Ask uses credit, and replace the error with a plain message and a link to add credit.
 
 ## What worked
 
@@ -82,7 +83,7 @@ The Now view on a phone is much simpler than the desktop page and easier to foll
 
 ## Top changes, in order
 
-1. Replace the OpenRouter error messages with plain ones that say what is needed and how to set it up.
+1. Tell readers before they tap which features (Write it, Draw it, Ask) use credit on their OpenRouter key, and replace the raw OpenRouter errors with a plain message and a link to add credit.
 2. Show only the selected mode ("From the data" or "Written for me").
 3. Show a sample of what "Draw it" produces before asking readers to pay for it.
 4. Add one or two visuals to the Now view, e.g. the status cards or a short timeline.
