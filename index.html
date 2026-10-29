@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>RiskMandate User Feedback</title>
-<meta name="description" content="Yiheng (Vicky)'s user feedback on RiskMandate.ai and its related sites: one page per task, newest first.">
+<meta name="description" content="Yiheng (Vicky)'s user feedback on RiskMandate, SGit Newsroom and sgit: grouped by product, one page per task, newest first.">
 <style>
   :root {
     --bg: #fbfaf7; --fg: #1d1c1a; --muted: #6b665e; --line: #e4e0d8;
@@ -36,6 +36,12 @@
   .task .where { color: var(--muted); font-size: 14px; }
   ul { padding-left: 20px; }
   footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+  table.products { width: 100%; border-collapse: collapse; font-size: 15px; }
+  table.products th, table.products td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  table.products th { color: var(--muted); font-weight: 600; font-size: 13px; }
+  table.products td:first-child { white-space: nowrap; }
+  .empty { color: var(--muted); }
+  h2[id] { scroll-margin-top: 16px; }
 </style>
 </head>
 <body>
@@ -44,12 +50,29 @@
 <header>
   <p class="kicker">RiskMandate · user feedback</p>
   <h1>Trying RiskMandate as a user</h1>
-  <p class="lede">What I found when I used <a href="https://riskmandate.ai/">RiskMandate.ai</a> and its related sites
-    as a first-time user: one page per task, newest first.</p>
+  <p class="lede">What I found when I used <a href="https://riskmandate.ai/">RiskMandate.ai</a> and its related products
+    as a first-time user. Grouped by product; one page per task, newest first.</p>
   <p class="meta">By Yiheng (Vicky), project manager</p>
 </header>
 
-<h2>Tasks</h2>
+<h2>The products</h2>
+<table class="products">
+  <tr><th>Product</th><th>What it is</th></tr>
+  <tr><td><a href="#riskmandate">RiskMandate</a></td><td>Agent Behaviour Policies: written rules for what an AI agent may do</td></tr>
+  <tr><td><a href="#sgit-newsroom">SGit Newsroom</a></td><td>Dinis Cruz's newsroom on AI agents and security, with a pay-per-page reading meter</td></tr>
+  <tr><td><a href="#sgit">sgit</a></td><td>Encrypted vaults that work like git</td></tr>
+</table>
+
+<h2 id="riskmandate">RiskMandate</h2>
+
+<a class="task" href="2026-10-21-customers-examples/">
+  <div class="top"><h3>Six behaviour policies, tried in real Claude</h3><span class="date">21 Oct 2026</span></div>
+  <p>I worked through the six Agent Behaviour Policy examples in Claude, one chat per act: what held, what did not,
+    where the site's illustration matched, and two things on the site that confused me.</p>
+  <p class="where">customers.riskmandate.ai · summary and full transcripts</p>
+</a>
+
+<h2 id="sgit-newsroom">SGit Newsroom</h2>
 
 <a class="task" href="2026-10-26-php-newsroom-mobile-now/">
   <div class="top"><h3>PHP October 2026: the Now view on my phone</h3><span class="date">26 Oct 2026</span></div>
@@ -72,12 +95,8 @@
   <p class="where">php.oct.2026.newsroom.sgit.ai · report with screenshots</p>
 </a>
 
-<a class="task" href="2026-10-21-customers-examples/">
-  <div class="top"><h3>Six behaviour policies, tried in real Claude</h3><span class="date">21 Oct 2026</span></div>
-  <p>I worked through the six Agent Behaviour Policy examples in Claude, one chat per act: what held, what did not,
-    where the site's illustration matched, and two things on the site that confused me.</p>
-  <p class="where">customers.riskmandate.ai · summary and full transcripts</p>
-</a>
+<h2 id="sgit">sgit</h2>
+<p class="empty">No tasks yet.</p>
 
 <h2>How to read this</h2>
 <ul>
