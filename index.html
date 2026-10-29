@@ -39,7 +39,8 @@
   table.products { width: 100%; border-collapse: collapse; font-size: 15px; }
   table.products th, table.products td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
   table.products th { color: var(--muted); font-weight: 600; font-size: 13px; }
-  table.products td:first-child { white-space: nowrap; }
+  table.products td:first-child, table.products td:last-child { white-space: nowrap; }
+  @media (max-width: 520px) { table.products td:last-child { white-space: normal; word-break: break-all; } }
   .empty { color: var(--muted); }
   h2[id] { scroll-margin-top: 16px; }
 </style>
@@ -57,10 +58,10 @@
 
 <h2>The products</h2>
 <table class="products">
-  <tr><th>Product</th><th>What it is</th></tr>
-  <tr><td><a href="#riskmandate">RiskMandate</a></td><td>Agent Behaviour Policies: written rules for what an AI agent may do</td></tr>
-  <tr><td><a href="#sgit-newsroom">SGit Newsroom</a></td><td>Dinis Cruz's newsroom on AI agents and security, with a pay-per-page reading meter</td></tr>
-  <tr><td><a href="#sgit">sgit</a></td><td>Encrypted vaults that work like git</td></tr>
+  <tr><th>Product</th><th>What it is</th><th>Website</th></tr>
+  <tr><td><a href="#riskmandate">RiskMandate</a></td><td>Agent Behaviour Policies: written rules for what an AI agent may do</td><td><a href="https://riskmandate.ai/">riskmandate.ai</a></td></tr>
+  <tr><td><a href="#sgit-newsroom">SGit Newsroom</a></td><td>Dinis Cruz's newsroom on AI agents and security, with a pay-per-page reading meter</td><td><a href="https://newsroom.sgit.ai/">newsroom.sgit.ai</a></td></tr>
+  <tr><td><a href="#sgit">sgit</a></td><td>Encrypted vaults that work like git</td><td><a href="https://sgit.ai/">sgit.ai</a></td></tr>
 </table>
 
 <h2 id="riskmandate">RiskMandate</h2>

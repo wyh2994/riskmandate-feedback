@@ -5,11 +5,11 @@ Grouped by product; one folder per task, newest first.
 
 **Read it as a website:** https://wyh2994.github.io/riskmandate-feedback/
 
-| Product | What it is |
-|---|---|
-| [RiskMandate](#riskmandate) | Agent Behaviour Policies: written rules for what an AI agent may do |
-| [SGit Newsroom](#sgit-newsroom) | Dinis Cruz's newsroom on AI agents and security, with a pay-per-page reading meter |
-| [sgit](#sgit) | Encrypted vaults that work like git |
+| Product | What it is | Website |
+|---|---|---|
+| [RiskMandate](#riskmandate) | Agent Behaviour Policies: written rules for what an AI agent may do | [riskmandate.ai](https://riskmandate.ai/) |
+| [SGit Newsroom](#sgit-newsroom) | Dinis Cruz's newsroom on AI agents and security, with a pay-per-page reading meter | [newsroom.sgit.ai](https://newsroom.sgit.ai/) |
+| [sgit](#sgit) | Encrypted vaults that work like git | [sgit.ai](https://sgit.ai/) |
 
 ## RiskMandate
 
