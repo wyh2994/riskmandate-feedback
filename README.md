@@ -27,7 +27,9 @@ Grouped by product; one folder per task, newest first.
 
 ## sgit
 
-No tasks yet.
+| Date | Task | What I did | Link |
+|------|------|------------|------|
+| 30 Oct 2026 | Trying it in the browser for the first time | Used the Try page as a non-technical first-time user: the demo buttons worked, but the terminal never connected, so I could not create a vault; where I got stuck and five changes in order | [Open](2026-10-30-sgit-try-in-browser/) |
 
 ## How each task is kept
 
