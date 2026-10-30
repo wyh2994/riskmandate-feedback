@@ -29,6 +29,7 @@ Grouped by product; one folder per task, newest first.
 
 | Date | Task | What I did | Link |
 |------|------|------------|------|
+| 30 Oct 2026 | Following the Quickstart on my own Mac | Installed sgit and created, pushed and opened my first vault; four errors on the way (three from the Mac's Python set-up, one an access token the page never mentions) and six changes in order | [Open](2026-10-30-sgit-quickstart/) |
 | 30 Oct 2026 | Trying it in the browser for the first time | Used the Try page as a non-technical first-time user: the demo buttons worked, but the terminal never connected, so I could not create a vault; where I got stuck and five changes in order | [Open](2026-10-30-sgit-try-in-browser/) |
 
 ## How each task is kept
